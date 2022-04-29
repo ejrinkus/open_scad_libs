@@ -55,5 +55,8 @@ def make_cbeam(height):
     return cbeam;
 
 
-# Test render
-scad_render_to_file(make_cbeam(100), '../cbeam.scad');
+scad_render_to_file(make_cbeam(250), '../../scad/cbeam_250mm.scad');
+scad_render_to_file(make_cbeam(500), '../../scad/cbeam_500mm.scad');
+scad_render_to_file(make_cbeam(1000), '../../scad/cbeam_1000mm.scad');
+scad_render_to_file(make_cbeam(1500), '../../scad/cbeam_1500mm.scad');
+scad_render_to_file(make_cbeam(2000), '../../scad/cbeam_2000mm.scad');

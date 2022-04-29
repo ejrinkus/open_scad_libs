@@ -97,5 +97,9 @@ def make_4040(height):
     return extrusion;
 
 # Render
-scad_render_to_file(center_hole_4040(100), '../vslot4040hole.scad');
-scad_render_to_file(make_4040(100), '../vslot4040.scad');
+scad_render_to_file(make_4040(100), '../../scad/vslot4040_250mm.scad');
+scad_render_to_file(make_4040(100), '../../scad/vslot4040_500mm.scad');
+scad_render_to_file(make_4040(100), '../../scad/vslot4040_1000mm.scad');
+scad_render_to_file(make_4040(100), '../../scad/vslot4040_1500mm.scad');
+scad_render_to_file(make_4040(100), '../../scad/vslot4040_2000mm.scad');
+scad_render_to_file(center_hole_4040(250), '../../scad/vslot4040hole.scad');

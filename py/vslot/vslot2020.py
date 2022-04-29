@@ -65,5 +65,9 @@ def make_2020(height):
     return cube([side, side, height]) - bottom_groove - left_groove - top_groove - right_groove - center_hole;
 
 # Test renders
-scad_render_to_file(make_2020(100), '../vslot2020.scad');
-scad_render_to_file(make_groove(100), '../vslotgroove.scad');
+scad_render_to_file(make_2020(250), '../../scad/vslot2020_250mm.scad');
+scad_render_to_file(make_2020(500), '../../scad/vslot2020_500mm.scad');
+scad_render_to_file(make_2020(1000), '../../scad/vslot2020_1000mm.scad');
+scad_render_to_file(make_2020(1500), '../../scad/vslot2020_1500mm.scad');
+scad_render_to_file(make_2020(2000), '../../scad/vslot2020_2000mm.scad');
+scad_render_to_file(make_groove(250), '../../scad/vslotgroove.scad');
